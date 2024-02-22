@@ -93,3 +93,15 @@ void setup(){
 - setting pin mode
 - menjalankan "one-time setup" yang lainnya
 
+2. **loop()**
+```c
+void loop(){
+     //blink LED
+     digitalWrite(LED_BUILTIN, HIGH);
+     delay(1000);
+     digitalWrite(LED_BUILTIN, LOW);
+     delay(1000);
+}
+```
+- dijalankan secara kontiniu setelah setup().
+- berisi code utama yang berjalan secara berulang selama arduino masih dalam keadaan hidup
