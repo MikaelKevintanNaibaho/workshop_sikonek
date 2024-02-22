@@ -1,10 +1,10 @@
 # Workshop Basic Arduino UKM Robotik Sikonek
 
 Pada workshop kali kita akan belajar mengenai basic dari arduino, mulai dari:
--Sardware
--Software dan basic programming
--Cara menggunakan sensor (sensor jarak HCSR-04 ultrasonic sensor)
--Cara mengendalikan motor (motor servo)
+- Hardware
+- Software dan basic programming
+- Cara menggunakan sensor (sensor jarak HCSR-04 ultrasonic sensor)
+- Cara mengendalikan motor (motor servo)
 
 ## Introduction Arduino dan Basic Programming
 
@@ -17,15 +17,15 @@ Terdiri Dari Programmable Circuit Board (Mikrokontroller) dan development enviro
 
 1. **Pinout power:**
    ![Alt text](images/power.png)
--Power Jack
+- Power Jack
 sebagai adapter power supply 7-12V
--Vin
+- Vin
 pin untuk external power source
--USB jack
+- USB jack
 konek ke komputer, menyediakan 5v 500mA
--5V dan 3v3
+- 5V dan 3v3
 menyediakan 5v dan 3,3V untuk memberi daya komponen external
--GND
+- GND
 pin GND digunakan untuk menutup rangkaian listrik
 
 2. **Pinout Analog**
