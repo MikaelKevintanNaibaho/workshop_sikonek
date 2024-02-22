@@ -20,7 +20,7 @@ Pemrogramman yang flexibel, terdapat banyak library dan mudah untuk mengontrol m
 ![Alt text](images/pinout_uno.png)
 
 1. **Pinout power:**
-   ![Alt text](images/power.png)
+![Alt text](images/power.png)
 - **Power Jack**
 sebagai adapter power supply 7-12V
 - **Vin**
@@ -33,7 +33,7 @@ menyediakan 5v dan 3,3V untuk memberi daya komponen external
 pin GND digunakan untuk menutup rangkaian listrik
 
 2. **Pinout Analog:**
-   ![Alt text](images/pinout_analog.png)
+![Alt text](images/pinout_analog.png)
  - Dapat digunakan sebagai input dan output
  - Arduino Uno punya 6 analog pin, sebagai **ADC**(Analog to Digital Converter).
 berfungsi untuk mengubah signal analog menjadi signal digital, agar dapat dihitung oleh prosesornya untuk dapat digunakan untuk operasi.
