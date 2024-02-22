@@ -139,3 +139,12 @@ Sensor Ultrasonic HC-SR04 adalah sensor jarak. Menggunakan prinsip kecepatan sua
 
 [click disini untuk melihat code](https://github.com/MikaelKevintanNaibaho/workshop_sikonek/blob/main/baca_hcsr/baca_hcsr.ino)
 
+## Cara mengendalikan motor servo
+- Motor servo adalah perangkat yang dapat berputar ke lokasi spesifik atau ke angle spesifik berdasarkan input sinyal yang diterima
+![Alt text](images/servo_arduino.png)
+![Alt text](images/servo_arduino_bb.png)
+
+
+- Vcc -> 5V
+- GND -> GND
+- Data -> 9~
