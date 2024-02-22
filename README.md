@@ -16,4 +16,4 @@ Terdiri Dari Programmable Circuit Board (Mikrokontroller) dan development enviro
 ![Alt text](images/pinout_uno.png)
 
 1. **Pinout power:**
-   ![Alt text](images/pinout_power.png)
+   ![Alt text](images/power.png)
