@@ -76,3 +76,20 @@ void loop(){
      delay(1000);
 }
 ```
+
+1. **setup()**
+```
+void setup(){
+     //inisialisasi serial komunikasi
+     Serial.begin(9600);
+
+     //set pin mode
+     pinMode(LED_BUILTIN, OUTPUT);
+     
+}
+```
+- dijalankan hanya sekali saat Arduino board diberikan daya atau saat reset button ditekan
+- untuk inisialisasi variable
+- setting pin mode
+- menjalankan "one-time setup" yang lainnya
+
