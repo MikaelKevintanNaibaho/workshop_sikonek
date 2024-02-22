@@ -17,3 +17,16 @@ Terdiri Dari Programmable Circuit Board (Mikrokontroller) dan development enviro
 
 1. **Pinout power:**
    ![Alt text](images/power.png)
+-Power Jack
+sebagai adapter power supply 7-12V
+-Vin
+pin untuk external power source
+-USB jack
+konek ke komputer, menyediakan 5v 500mA
+-5V dan 3v3
+menyediakan 5v dan 3,3V untuk memberi daya komponen external
+-GND
+pin GND digunakan untuk menutup rangkaian listrik
+
+2. **Pinout Analog**
+   ![Alt text](images/pinout_analog.png)
