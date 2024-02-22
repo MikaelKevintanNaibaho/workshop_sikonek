@@ -9,8 +9,12 @@ Pada workshop kali kita akan belajar mengenai basic dari arduino, mulai dari:
 ## Introduction Arduino dan Basic Programming
 
 ### Overview Singkat Arduino dan Kemampuannya
-Arduino adalah platform elektronik Open-Source untuk hardware dan software yang mudah digunakan dan biasa digunakan untuk pembelajaran mikrokontroller dan embedded system karena simpel dan serbaguna
+- Arduino adalah platform elektronik Open-Source untuk hardware dan software yang mudah digunakan dan biasa digunakan untuk pembelajaran mikrokontroller dan embedded system karena simpel dan serbaguna
 Terdiri Dari Programmable Circuit Board (Mikrokontroller) dan development environtment untuk menulis code dan mengupload code ke Board.
+
+- **Kemampuannya**
+dapat berinterface dengan banyak jenis sensor, display, dan comunnication modules. sehingga sering digunakan untuk robotik, IoT (home automation), dll.
+Pemrogramman yang flexibel, terdapat banyak library dan mudah untuk mengontrol motor, komunikasi dengan perangkat lain, dan dapat mengimplementasikan algoritma kompleks. Komunitas yang besar dan aktif, sehingga mudah mencari bantuan, inspirasi untuk project.
 
 ### Pinout Arduino Uno
 ![Alt text](images/pinout_uno.png)
@@ -42,3 +46,33 @@ berfungsi untuk mengubah signal analog menjadi signal digital, agar dapat dihitu
 - **Sebagai INPUT** membaca signal digital HIGH = 5V dan LOW = 0V
 - **Sebagai OUTPUT** memberikan signal digital HIGH dan LOW untuk mengontrol LED, relay, motor, dan digital device lainnya
 - pin PWM (~), digunakan untuk men-generate sinyal seperti analog dengan menggunakan sinyal. pin PWM pada Uno itu 8-bit (2^8 = 256). artinya menghasilak sinyal PWM 0 sampai 255. biasa digunakan untuk mengontrol kecepatan motor, kecerahan LED, dll
+
+## Basic Konsep Pemrogramman Arduino C
+
+### Structure
+```c
+#include <Servo.h>
+#include <LiquidCrystal.h>
+#include "CMPS12.h"
+
+#define LED_BUILTIN 13
+
+int loop_count = 0;
+
+void setup(){
+     //inisialisasi serial komunikasi
+     Serial.begin(9600);
+
+     //set pin mode
+     pinMode(LED_BUILTIN, OUTPUT);
+     
+}
+
+void loop(){
+     //blink LED
+     digitalWrite(LED_BUILTIN, HIGH);
+     delay(1000);
+     digitalWrite(LED_BUILTIN, LOW);
+     delay(1000);
+}
+```
