@@ -126,5 +126,16 @@ int loop_count = 0;
 ## Cara menggunakan sensor (sensor jarak HC-SR04 ultrasonic sensor)
 Sensor Ultrasonic HC-SR04 adalah sensor jarak. Menggunakan prinsip kecepatan suara. **Akurasi** dari sensor ini adalah **2-400cm**
 
+### Wiring HC-SR04 ke Arduino
+![Alt text](images/hcsr_arduino.png)
+
+### Wiring HC-SR04 menggunakan breadboard
+![Alt text](images/hcsr_arduino_bb.png)
+
+- Vcc -> 5V
+- GND -> GND
+- Trig -> 2
+- Echo -> 3
+
 [click disini untuk melihat code](https://github.com/MikaelKevintanNaibaho/workshop_sikonek/blob/main/baca_hcsr/baca_hcsr.ino)
 
