@@ -78,7 +78,7 @@ void loop(){
 ```
 
 1. **setup()**
-```
+```c
 void setup(){
      //inisialisasi serial komunikasi
      Serial.begin(9600);
