@@ -30,6 +30,7 @@ pin GND digunakan untuk menutup rangkaian listrik
 
 2. **Pinout Analog**
    ![Alt text](images/pinout_analog.png)
+ - Dapat digunakan sebagai input dan output
  - Arduino Uno punya 6 analog pin, sebagai **ADC**(Analog to Digital Converter).
 berfungsi untuk mengubah signal analog menjadi signal digital, agar dapat dihitung oleh prosesornya untuk dapat digunakan untuk operasi.
  - Pada arduino ADC itu 10-bit. artinya merepresentasikan voltage analog menjadi 1024(2^10) dalam level digital
@@ -37,3 +38,7 @@ berfungsi untuk mengubah signal analog menjadi signal digital, agar dapat dihitu
 
 3. **Pinout Digital**
    ![Alt text](images/pinout_digital.png)
+- Pin digital dapat digunakan sebagai input dan output (pin 0 - 13)
+- **Sebagai INPUT** membaca signal digital HIGH = 5V dan LOW = 0V
+- **Sebagai OUTPUT** memberikan signal digital HIGH dan LOW untuk mengontrol LED, relay, motor, dan digital device lainnya
+- pin PWM (~), digunakan untuk men-generate sinyal seperti analog dengan menggunakan sinyal. pin PWM pada Uno itu 8-bit (2^8 = 256). artinya menghasilak sinyal PWM 0 sampai 255. biasa digunakan untuk mengontrol kecepatan motor, kecerahan LED, dll
