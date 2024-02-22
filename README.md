@@ -31,6 +31,7 @@ konek ke komputer, menyediakan 5v 500mA
 menyediakan 5v dan 3,3V untuk memberi daya komponen external
 - **GND**
 pin GND digunakan untuk menutup rangkaian listrik
+<br><br>
 
 2. **Pinout Analog:**
 ![Alt text](images/pinout_analog.png)
@@ -39,6 +40,7 @@ pin GND digunakan untuk menutup rangkaian listrik
 berfungsi untuk mengubah signal analog menjadi signal digital, agar dapat dihitung oleh prosesornya untuk dapat digunakan untuk operasi.
  - Pada arduino ADC itu 10-bit. artinya merepresentasikan voltage analog menjadi 1024(2^10) dalam level digital
  - Pin analog bisa digunakan untuk membaca data sensor analog seperti sensor suhu, sensor cahaya, pontensiometer, dll.
+<br><br>
 
 3. **Pinout Digital:**
    ![Alt text](images/pinout_digital.png)
