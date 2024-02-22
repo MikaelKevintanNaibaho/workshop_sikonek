@@ -105,3 +105,20 @@ void loop(){
 ```
 - dijalankan secara kontiniu setelah setup().
 - berisi code utama yang berjalan secara berulang selama arduino masih dalam keadaan hidup
+3. **bagian Opsional**
+- Inklusi library
+```c
+#include <Servo.h>
+#include <LiquidCrystal.h>
+#include "CMPS12.h"
+```
+
+- Constant definition
+```c
+#define LED_BUILTIN 13
+```
+
+- Global variable declaration
+```c
+int loop_count = 0;
+```
