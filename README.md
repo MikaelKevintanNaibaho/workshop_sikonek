@@ -148,3 +148,5 @@ Sensor Ultrasonic HC-SR04 adalah sensor jarak. Menggunakan prinsip kecepatan sua
 - Vcc -> 5V
 - GND -> GND
 - Data -> 9~
+
+[click disini untuk melihat code](https://github.com/MikaelKevintanNaibaho/workshop_sikonek/blob/main/kontrol_servo/kontrol_servo.ino)
