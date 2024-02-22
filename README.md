@@ -3,7 +3,7 @@
 Pada workshop kali kita akan belajar mengenai basic dari arduino, mulai dari:
 - Hardware
 - Software dan basic programming
-- Cara menggunakan sensor (sensor jarak HCSR-04 ultrasonic sensor)
+- Cara menggunakan sensor (sensor jarak HC-SR04 ultrasonic sensor)
 - Cara mengendalikan motor (motor servo)
 
 ## Introduction Arduino dan Basic Programming
@@ -122,3 +122,9 @@ void loop(){
 ```c
 int loop_count = 0;
 ```
+
+## Cara menggunakan sensor (sensor jarak HC-SR04 ultrasonic sensor)
+Sensor Ultrasonic HC-SR04 adalah sensor jarak. Menggunakan prinsip kecepatan suara. **Akurasi** dari sensor ini adalah **2-400cm**
+
+
+
